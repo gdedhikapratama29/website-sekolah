@@ -25,8 +25,11 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body>
+  <body id="beranda">
     <!-- navbar -->
     <div class="navbar">
       <div class="container">
@@ -37,23 +40,23 @@
 
           <ul class="menu">
             <li>
-              <a href="#">Beranda</a>
+              <a href="#beranda">Beranda</a>
             </li>
 
             <li>
-              <a href="#">Tentang Kami</a>
+              <a href="#tentang kami">Tentang Kami</a>
             </li>
 
             <li>
-              <a href="#">Akademik</a>
+              <a href="#akademik">Akademik</a>
             </li>
 
             <li>
-              <a href="#">PPDB</a>
+              <a href="#ppdb">PPDB</a>
             </li>
 
             <li>
-              <a href="#">Kontak</a>
+              <a href="#kontak">Kontak</a>
             </li>
           </ul>
         </div>
@@ -65,52 +68,47 @@
     <div class="hero">
       <div class="container">
         <div class="hero-box">
-          <h1>
+          <h1 data-aos="fade-up" data-aos-duration="1000">
             Selamat datang di <br />
             Sekolah sdn cakra
           </h1>
-          <p>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum assumenda, a voluptatem,
             nulla aliquam ex rerum eligendi fuga alias amet saepe molestiae maxime id, neque
             perspiciatis! Rerum ab id laborum.
           </p>
-          <a href="#">Lihat Tentang Kami</a>
+          <a href="#tentang kami" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            Lihat Tentang Kami
+          </a>
         </div>
       </div>
     </div>
     <!-- end hero section -->
 
     <!-- Tentang kami -->
-    <div class="tentang">
+    <div class="tentang" id="tentang kami">
       <div class="container">
         <div class="tentang-box">
-          <div class="box">
+          <div class="box" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500">
             <img src="assets/tentang-kami.avif" alt="" />
           </div>
 
-          <div class="box">
+          <div class="box" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="700">
             <h1>Tentang kami</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, minima! Non excepturi
-              atque labore, a, nulla voluptatem perferendis sed recusandae nihil eius ea ullam.
-              Provident corrupti ullam enim non tenetur suscipit aperiam mollitia illum quaerat odit
-              exercitationem voluptatibus, error dolores consequuntur porro reiciendis! Est tempore
-              quae doloremque ipsum obcaecati voluptates veniam eius. Iusto libero blanditiis quas
-              doloremque nisi voluptatem, accusamus, facilis, mollitia dolore assumenda aut. Facere
-              ipsum officiis fuga vitae deserunt! Ipsum officiis architecto explicabo impedit,
-              blanditiis assumenda dolore sunt cupiditate in, atque molestias, quam necessitatibus
-              et voluptates deserunt illum quas? Quo atque dolores optio, veritatis blanditiis
-              suscipit. Ex neque ipsam, odit est ipsum et illum corporis quam asperiores quibusdam
-              totam aperiam velit modi voluptas, animi repudiandae adipisci tempora, at minus
-              voluptatum. Quisquam necessitatibus placeat reiciendis, eveniet adipisci nobis
-              expedita?
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque impedit reprehenderit
+              laboriosam tempore praesentium itaque pariatur voluptates animi quo assumenda voluptas
+              aspernatur laborum quam officiis, sunt cupiditate placeat aliquid, veniam repellendus
+              voluptatibus sit fugiat dicta fuga optio. Eligendi blanditiis ad vitae eaque fuga quis
+              officiis in possimus ullam reiciendis? Facilis, adipisci rerum! Placeat veritatis
+              pariatur labore magni neque debitis soluta?
             </p>
           </div>
         </div>
 
         <!-- info -->
         <div class="info">
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <h2>
               <span>250+</span>
               <br />
@@ -118,7 +116,7 @@
             </h2>
           </div>
 
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <h2>
               <span>80+</span>
               <br />
@@ -126,7 +124,7 @@
             </h2>
           </div>
 
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
             <h2>
               <span>100+</span>
               <br />
@@ -139,10 +137,10 @@
     <!-- end Tentang kami -->
 
     <!-- akademik -->
-    <div class="akademik">
+    <div class="akademik" id="akademik">
       <div class="container">
         <div class="akademik-box">
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
             <img src="assets/akademik.avif" alt="" />
             <div class="desc">
               <h2>litreasi</h2>
@@ -154,7 +152,7 @@
             </div>
           </div>
 
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <img src="assets/akademik2.avif" alt="" />
             <div class="desc">
               <h2>praktik</h2>
@@ -166,10 +164,10 @@
             </div>
           </div>
 
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
             <img src="assets/akademik3.avif" alt="" />
             <div class="desc">
-              <h2>aahaha</h2>
+              <h2>kreatifitas siswa</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat recusandae, aliquam
                 tempore dolorum in officiis ex voluptate minus cupiditate placeat non sint et,
@@ -183,16 +181,22 @@
     <!-- akademik end -->
 
     <!-- ppdb -->
-    <div class="ppdb">
+    <div class="ppdb" id="ppdb">
       <div class="container">
         <div class="ppdb-box">
-          <div class="box">
-            <img src="assets/ppdb.avif" alt="">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <img src="assets/ppdb.avif" alt="" />
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
             <h2>penerimaan peserta didik baru(PPDB)</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam, dolore aliquam neque saepe ad nobis deserunt, quam itaque quod laborum eius odio dolorum a dolores, nulla numquam molestias in!</p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSAMPLE123456789/viewform">Link PPDB</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam, dolore aliquam
+              neque saepe ad nobis deserunt, quam itaque quod laborum eius odio dolorum a dolores,
+              nulla numquam molestias in!
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSAMPLE123456789/viewform"
+              >Link PPDB</a
+            >
           </div>
         </div>
       </div>
@@ -201,23 +205,78 @@
     <!-- ppdb end -->
 
     <!-- footer -->
-     <footer>
+    <footer>
       <div class="container">
-        <div class="footer-box">
+        <div class="footer-box" id="kontak">
           <div class="box">
             <h2>Social Media</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam fugiat, officiis provident possimus labore eum dolores adipisci est, neque illum eos ipsum cupiditate. Qui aperiam sunt incidunt labore!</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam fugiat, officiis
+              provident possimus labore eum dolores adipisci est, neque illum eos ipsum cupiditate.
+              Qui aperiam sunt incidunt labore!
+            </p>
             <div class="social">
               <a href="#">
-                
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
           </div>
+
+          <div class="box">
+            <h2>Menu</h2>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang kami">Tentang Kami</a>
+            <a href="#akademik">Akademik</a>
+            <a href="#ppdb">PPDB</a>
+          </div>
+
+          <div class="box">
+            <h2>Kontak</h2>
+            <p>
+              <i class="fa-solid fa-envelope"></i>
+              sdnckara@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i>
+              081-234-567-890(pak yusuf)
+            </p>
+            <p>
+              <i class="fa-solid fa-location-pin"></i>
+              Jl. Pendidikan No. 25, Desa Sukamaju, Kecamatan Denpasar Selatan, Kota Denpasar, Bali
+              80224, Indonesia.
+            </p>
+          </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">
+          <p>&copy; 2026 SDN Cakra. All rights reserved.</p>
         </div>
       </div>
-     </footer>
+    </footer>
     <!-- footer end -->
 
+    <!-- scroll up -->
+    <a
+      href="https://wa.me/083895207734?text=halo saya ingin konsultasi tentang ppdb"
+      class="scroll-up">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- scroll down -->
+
     <script src="dist/js/script.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
   </body>
 </html>
